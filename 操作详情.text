@@ -1,0 +1,22 @@
+1.创建django项目，django-admin startproject 项目名称
+
+2，进入到项目的目录 python manage.py runserver 启动服务器
+3，在url中添加你所创建的网页，然后写个功能模块.py 在url中导入这个模块，才能使用
+4.在同级文件目录下创建一个文件存放你编写的网页，在settings中的template的IDR中加入你存网页的文件夹让程序知道
+在哪找到网页
+
+5.在你所创建的功能模块.py中连接上你的网页,导入django.http中的HttpResponse,
+利用return HttpResponse("内容")可以返回内容给用户的界面
+导入django.shortcuts中的render return render(网页),可以返回给用户你写好的网页
+
+6.创建app 在dos界面运行startapp
+
+7.你所创建的app要到settings中的app加入你创建的apps中的类
+
+8.在models中写模板写好的模板在admin中注册
+9.写好的模块要上传到数据库中，在dos界面中运行makegration生成要导入的模板，再用migrate上传到数据库
+10.上传到数据库中要使用管理员身份管理数据，在dos 界面创建create superuser 登陆到数据库中在七中添加
+数据
+
+11.添加图片需要使用charimagefile()要安装pillow才可以运行,然后在settings中添加图片的网址，加数据库
+存放到本地文件的路径然后在url中用一些模块把这两连接起来static，和导入settings
