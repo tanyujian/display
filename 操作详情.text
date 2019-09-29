@@ -20,3 +20,14 @@
 
 11.添加图片需要使用charimagefile()要安装pillow才可以运行,然后在settings中添加图片的网址，加数据库
 存放到本地文件的路径然后在url中用一些模块把这两连接起来static，和导入settings
+
+12.在html中的img标签中的height =？？%可以改变图片的大小
+
+13.<style type="text/css">
+    pre{
+        white-space: pre-wrap;
+        word-wrap: break-word;
+    }
+</style>
+<pre style="width:500px">{{ foo.text }}</pre>
+让文本自动换行，调式你需要文本的宽度

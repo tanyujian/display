@@ -18,8 +18,17 @@
   <component name="ProjectId" id="1RJEtFgzoWaAy8luW6YEeD20SIE" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/新建文件夹/Git-2.23.0-64-bit.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tempalte" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tan\Desktop\zong\display\blogs\template" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tan\Desktop\zong\display\tempalte" />
+      <recent name="C:\Users\tan\Desktop\zong\display\blogs" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -72,7 +81,12 @@
       <workItem from="1569401380331" duration="1881000" />
       <workItem from="1569403766753" duration="8129000" />
       <workItem from="1569464135757" duration="1761000" />
-      <workItem from="1569488115246" duration="8233000" />
+      <workItem from="1569488115246" duration="9448000" />
+      <workItem from="1569635105743" duration="4946000" />
+      <workItem from="1569662783061" duration="4148000" />
+      <workItem from="1569679803975" duration="8167000" />
+      <workItem from="1569752532391" duration="5229000" />
+      <workItem from="1569760124073" duration="2849000" />
     </task>
     <servers />
   </component>
