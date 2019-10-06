@@ -1,0 +1,15 @@
+<h1>{{ blog.title }}</h1>
+<style type="text/css">
+    pre{
+        white-space: pre-wrap;
+        word-wrap: break-word;
+    }
+</style>
+<div>
+    {{ blog.date }}
+    <br>
+    <img src="{{blog.image.url}}" height="30%">
+    <pre style="width:500px;">{{ blog.text }}
+    </pre>
+    <h2><a href="..">回到上一页</a></h2>
+</div>

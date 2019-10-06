@@ -96,7 +96,7 @@
         <div class="container">
         {% for foo in blo.all %}
             <br>
-            <h2><a href="">{{ foo.title }}</a></h2>
+            <h2><a href="{{ foo.id }}">{{ foo.title }}</a></h2>
             <br>
         {{ foo.date }}
             <br>
